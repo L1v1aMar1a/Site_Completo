@@ -22,8 +22,8 @@ function SubmitQuiz(){
         q4: "B",
         q5: "A",
         q6: "B",
-        q7: "A",
-        q8: "A",
+        q7: "B",
+        q8: "D",
         q9: "A",
         q10: "A",
 
