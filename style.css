@@ -1,4 +1,5 @@
 /* ----------------- Index ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 :root{
     --cor1:#D9D9D9;
@@ -6,11 +7,13 @@
     --cor3:#657366;
     --cor4:#735340;
     --cor5:#0D0D0D;
+    --fonte1:Verdana,Geneva,Tahoma,sans-serif;
+    --fonte2: "soft", Arial;
 }
 
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: var(--fonte2);
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
@@ -45,7 +48,7 @@ nav{
 }
 
 nav a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:var(--fonte2);
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -60,6 +63,7 @@ nav a:hover{
 }
 
 h3{
+    font-family: var(--fonte2);
     text-align:center;
     font-size: 20px;
     padding: 10px;
@@ -67,6 +71,7 @@ h3{
 }
 
 .contate{
+    font-family: var(--fonte2);
     text-align:justify;
     font-size: 20px;
     padding: 10px;
@@ -88,6 +93,7 @@ iframe{
 } 
 
 #sobre{
+    font-family: var(--fonte2);
     width: calc(100% - 20%);
     padding: 15px;
     /* line-height: 19px;
@@ -98,6 +104,7 @@ iframe{
 }
 
 #servico{
+    font-family: var(--fonte2);
     line-height: 20px;
     text-align:justify;
     font-size: 15px;
@@ -106,6 +113,7 @@ iframe{
 }
 
 #contato{
+    font-family: var(--fonte2);
     line-height: 19px;
     text-align:justify;
     font-size: 15px;
@@ -146,7 +154,7 @@ footer {
 
 
 .form{
-    font-family: Arial, sans-serif;
+    font-family: var(--fonte2);
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
@@ -223,7 +231,7 @@ button{
 
 /* ---------------- Quiz -------------- ok */
 .bodyQuiz{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte2);
     background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
     /* display: flex; */
     justify-content: center;
@@ -258,7 +266,7 @@ button{
 
 h2{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:var(--fonte2);
     font-size: 45px;
     color:var(--cor3);
 
@@ -273,7 +281,7 @@ button{
     padding: 10px;
     margin-bottom: 5px;
     background-color: var(--cor5);
-    color: aliceblue;
+    color: var(--cor1);
     border: none;
     border-radius: 5px;
     cursor: pointer;
