@@ -1,0 +1,289 @@
+/* ----------------- Index ---------------- */
+
+:root{
+    --cor1:#D9D9D9;
+    --cor2:#B7D9A7;
+    --cor3:#657366;
+    --cor4:#735340;
+    --cor5:#0D0D0D;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
+    color: var(--cor5);
+}
+
+
+header{
+    background-color:var(--cor1);
+}
+
+header img {
+    background-image:var(--cor3);
+    height: 150%;
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 595px;
+    margin-bottom: 0px;
+    padding-top: 2px; 
+}
+
+
+nav{
+    background-color:var(--cor3);
+    padding: 10px;
+    font-size: 19px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+}
+
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1em;
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 3px;
+}
+
+h3{
+    text-align:center;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.contate{
+    text-align:justify;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.imagem{
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+iframe{
+    width: 700px;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    float: right;
+    border-radius: 20px;
+} 
+
+#sobre{
+    width: calc(100% - 20%);
+    padding: 15px;
+    /* line-height: 19px;
+    text-align:left;
+    font-size: 15px;
+     */
+
+}
+
+#servico{
+    line-height: 20px;
+    text-align:justify;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+#contato{
+    line-height: 19px;
+    text-align:justify;
+    font-size: 15px;
+    padding: 20px;
+
+}
+
+/* .contate{
+    text-align: justify;
+    background-color: var(--cor2);
+    border-radius: 20px;
+    box-shadow: 8px 6px 14px grey;
+    padding: 2px 0px 3px 5px;
+    width: 250px;
+} */
+
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 3px;
+}
+
+strong{
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background:var(--cor5);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+/* ---------------------- Formulário -------------------- */
+
+
+.form{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
+    color: black;
+}
+
+.cliente{
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color:var(--cor1);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    margin-bottom: 20px;
+}
+
+form fieldset{
+    border: none;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: var(--cor5);
+}
+
+input[type="text"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--cor5);
+}
+
+
+input[type="email"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--cor5);
+}
+
+
+input[type="tel"],
+select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--cor5);
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:var(--cor3);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* ---------------- Quiz -------------- ok */
+.bodyQuiz{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,#657366,#B7D9A7,#D9D9D9);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+
+}
+
+.logoQuiz img {
+    background-image:var(--cor1);
+    height: 150%;
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 595px;
+    margin-bottom: 0px;
+    padding-top: 2px; 
+    
+
+}
+
+
+.quiz-section{
+    background-image:var(--cor1); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color:var(--cor3);
+
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: var(--cor5);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--cor2);
+}
+
+#result{
+    margin-top: 20px;
+    font-size:  18px;
+    text-align: center;
+}
